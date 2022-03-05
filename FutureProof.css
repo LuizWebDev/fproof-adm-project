@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 50px;
+}
+
+.face {
+  width: 100%;
+  background-color: #bfacb5;
+  padding-top: 80px;
+}
+
+img {
+  width: 600px;
+  display: block;
+  border-radius: 360px;
+  margin: auto;
+}
+.myName {
+  text-align: center;
+  margin: auto;
+  padding: 8px;
+  width: 70%;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  font-size: 80px;
+}
+
+.header {
+  font-size: 45px;
+  padding-bottom: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.aboutMe {
+  font-size: 30px;
+  font-family: "Licorice", cursive;
+  font-family: "Ubuntu Mono", monospace;
+  padding: 5px;
+  color: #005f73;
+}
+
+.guessMe {
+  font-size: 35px;
+  margin: 30px 0;
+  color: #3d405b;
+  font-family: monospace;
+}
+
+.myList {
+  width: 700px;
+  height: 150px;
+  margin: auto;
+}
+
+.listItem {
+  margin-top: 10px;
+  margin-left: 70px;
+  color: #3d405b;
+  font-size: 30px;
+  /* font-family: "Pushster", cursive;
+    font-family: "Ubuntu Mono", monospace;
+    color: ;*/
+  font-family: monospace;
+}
+
+.mainText {
+  background-color: #f4e8c1;
+  padding: 50px;
+}
+fieldset {
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  border: solid black 5px;
+  border-radius: 10px;
+  min-width: 200px;
+  background-color: #d8e2dc;
+  color: #3d405b;
+}
+legend {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+  font-size: 30px;
+  color: #3d405b;
+}
+label {
+  display: block;
+  font-size: 25px;
+}
+input,
+textarea {
+  padding: 3px;
+  color: black;
+  border: 2px solid dimgray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fdfcdc;
+}
+
+input[type="radio"] + label {
+  display: inline;
+}
+
+input[type="checkbox"] + label {
+  display: inline;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+}
+
+#textarea {
+  width: 100%;
+}
+.gender {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#checkit {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.myForm {
+  padding: 50px;
+  background-color: #a0c1b9;
+}
